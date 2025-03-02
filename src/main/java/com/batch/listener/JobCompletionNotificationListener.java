@@ -57,5 +57,7 @@ public class JobCompletionNotificationListener implements JobExecutionListener {
                 ).forEach(log::info);
             }
         }
+        // Terminate the application
+        System.exit(0);
     }
 }
