@@ -1,19 +1,19 @@
 package com.batch.model;
 
-// Input model - directly maps to database columns
-public class Customer {
-    private Long id;
+// Output model - formatted for fixed-length output
+public class FormattedCustomer {
+    private String id;
     private String firstName;
     private String lastName;
     private String email;
     private String phoneNumber;
 
     // Getters and setters
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

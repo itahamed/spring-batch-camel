@@ -2,7 +2,8 @@ CREATE TABLE customers (
     id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(20),
     last_name VARCHAR(20),
-    email VARCHAR(100)
+    email VARCHAR(100),
+    phone_number VARCHAR(20)
 );
 
 CREATE TABLE products (
