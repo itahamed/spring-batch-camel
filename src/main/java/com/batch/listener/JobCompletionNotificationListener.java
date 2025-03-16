@@ -58,6 +58,6 @@ public class JobCompletionNotificationListener implements JobExecutionListener {
             }
         }
         // Terminate the application
-        System.exit(0);
+      //  System.exit(0);
     }
 }
